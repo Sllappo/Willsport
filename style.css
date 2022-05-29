@@ -1,0 +1,195 @@
+/*-----------------------------PROPRIETES GENERALES-----------------------------*/
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#main_wrapper{
+    overflow-x: hidden;
+    background-color: rgb(237, 213, 208);
+}
+
+#none{
+  opacity: 0;
+}
+
+header{
+    background-color: rgb(117, 53, 39);
+    height: 35vh;
+    width: 100%;
+}
+
+nav ul
+{
+    width: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav li
+{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav img 
+{
+    width: 250px;
+    margin: 0%;
+    background-color: aliceblue;
+}
+
+nav a 
+{
+    font-family: Lemon ,Roboto ,Arial, Helvetica, sans-serif;
+    text-decoration : none ;
+    color: rgb(215, 201, 201);
+    font-weight: 250;
+    font-size: 70px;
+    transition: all .2s ease-in-out;
+}
+
+nav a:hover
+{
+    text-shadow: 2px 2px 0px rgb(73, 118, 225);
+}
+
+#seances
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: clamp(1.5rem, 5vw , 5vw);
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#seances ul
+{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#seances_list {
+    font-size: 70px;
+    display: flex;
+    text-align: center;
+}
+
+#seances_list li{
+    border: double 2px black;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom right, rgb(133, 193, 233), lightgray);
+    padding: 73px;
+}
+
+#activités
+{
+    margin-top: 10vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    align-items: center;
+}
+
+.activités_txt
+{
+    margin-left: 3vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#activités img
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    padding-left: 400px;
+}
+
+footer
+{
+    font-family: Roboto ,Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #EEF2F4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: rgb(117, 53, 39);
+    clip-path: polygon(0 15%, 50% 0, 100% 15%, 100% 100%, 50% 100%, 0 100%);
+    
+
+    padding-bottom: 6rem;
+}
+
+#contact a em:hover
+{
+  transition: all .1s ease-in-out;
+}
+
+#contact a em:hover
+{
+ text-shadow: 1px 1px 0px rgb(226, 255, 4);
+}
+
+/*Ajustement footer*/
+footer h1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer em , a 
+{
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+footer h1
+{
+  margin-top: 6rem;
+}
+
+footer li
+{
+  margin-top: 0.25rem;
+}
+
+.socials ul
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socials img
+{
+  transition: all .2s ease-in-out;
+}
+
+.socials img:hover
+{
+  transform: scale(1.2);
+}
+#fb img{
+    width: 35%;
+}
+
+#gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
