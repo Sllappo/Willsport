@@ -70,6 +70,7 @@ nav a:hover
     font-size: clamp(1.5rem, 5vw , 5vw);
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 #seances ul
@@ -85,6 +86,8 @@ nav a:hover
     font-size: 70px;
     display: flex;
     text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
 #seances_list li{
@@ -92,6 +95,8 @@ nav a:hover
     border-collapse: collapse;
     background: linear-gradient(to bottom right, rgb(133, 193, 233), lightgray);
     padding: 73px;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 #activités
@@ -108,14 +113,7 @@ nav a:hover
     font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-align: center;
-}
-
-#activités img
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 40%;
-    padding-left: 400px;
+    margin-bottom: 1rem;
 }
 
 footer
@@ -125,7 +123,8 @@ footer
     color: #EEF2F4;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 3rem;
     
     background-color: rgb(117, 53, 39);
     clip-path: polygon(0 15%, 50% 0, 100% 15%, 100% 100%, 50% 100%, 0 100%);
@@ -144,7 +143,6 @@ footer
  text-shadow: 1px 1px 0px rgb(226, 255, 4);
 }
 
-/*Ajustement footer*/
 footer h1
 {
   font-family: Arial, Helvetica, sans-serif;
@@ -192,4 +190,27 @@ footer li
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+}
+
+#para_activ{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#para_activ p{
+    width: 100%;
+}
+
+#img_equip{
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+#img_equip img{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
